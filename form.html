@@ -32,8 +32,9 @@
                 font-family: 'Lobster', cursive;
             }
         }
+
         @media screen and (max-width: 361px) {
-            
+
 
             .navbar-brand {
 
@@ -72,26 +73,66 @@
         </div>
     </nav>
     <div class="container-fluid bg-1 text-center">
-        <small>your cart is empty</small>
-    </div>
-    <div class="row">
-        <footer class="section footer-classic context-dark bg-image"
-            style="background: #696969; width: 100%; height: 60px ; max-width: top 10px; position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: #696969;
-            color: white;
-            text-align: center;">
-            <div class="container text-center">
-                <small>Copyright &copy; Nikita Bansal</small>
-                <small>Contact us : 0120-88797987</small>
-                <small>delhi, panchsheel</small>
+
+        <form class="text-center border border-light p-5" action="#!">
+
+            <p class="h4 mb-4">Fill up the detials</p>
+
+            <div class="form-row mb-4">
+                <div class="col">
+
+                    <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+
+                    <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+                </div>
             </div>
-        </footer>
+
+            <!-- E-mail -->
+            <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+            <!-- Password -->
+            <input type="text" class="form-control" placeholder="Permanent Address">
+            <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                Fill your permanent address
+            </small>
+            <input type="text" class="form-control" placeholder="enter zip code">
+            <small>enter exact zip code</small>
+            <!-- Newsletter -->
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+                <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our
+                    newsletter</label>
+            </div>
+
+            <!-- Sign up button -->
+            <button class="btn btn-info my-4 btn-block" type="submit">Proceed</button>
+
+
+            <hr>
+
+        </form>
+        <div class="row">
+            <footer class="section footer-classic context-dark bg-image"
+                style="background: #696969; width: 100%; height: 60px ; max-width: top 10px; position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: #696969;
+                color: white;
+                text-align: center;">
+                <div class="container text-center">
+                    <small>Copyright &copy; Nikita Bansal</small>
+                    <small>Contact us : 0120-88797987</small>
+                    <small>delhi, panchsheel</small>
+                </div>
+            </footer>
+        </div>
     </div>
-      
-  
+
+
+
 </body>
 
 </html>
