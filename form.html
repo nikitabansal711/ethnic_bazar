@@ -1,110 +1,174 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
+<html>
+  <head>
+    <meta charset="utf-8" />
     <title>
-        ethnic bazar
+      ethnic bazar
     </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="home.html"><strong>ETHNIC BAZAR</strong></a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="men_outer.html">Men's Outerwear</a></li>
-                    <li><a href="lady_outer.html">Ladies Outerwear</a></li>
-                    <li><a href="men_tshirt.html">Kids Wear</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    <li><a href="cart.html"><img class="img-responsive" src="images/cart.svg" height="20"
-                                width="20"></a></li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="home.html"
+            ><strong>ETHNIC BAZAR</strong></a
+          >
         </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="men_outer.html">Men's Outerwear</a></li>
+            <li><a href="lady_outer.html">Ladies Outerwear</a></li>
+            <li><a href="men_tshirt.html">Kids Wear</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"
+                ><span class="glyphicon glyphicon-user"></span> Sign Up</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+            <li>
+              <a href="cart.html"
+                ><img
+                  class="img-responsive"
+                  src="images/cart.svg"
+                  height="20"
+                  width="20"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <div class="container-fluid bg-1 text-center">
+      <form class="text-center border border-light p-5" action="#!">
+        <p class="h4 mb-4">Fill up the details</p>
 
-        <form class="text-center border border-light p-5" action="#!">
-
-            <p class="h4 mb-4">Fill up the details</p>
-
-            <div class="form-row mb-4">
-                <div class="col">
-                    <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
-                </div>
-                <br>
-                <div class="col">
-
-                    <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
-                </div>
-                <br>
-            </div>
-
-            <!-- E-mail -->
-            <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
-            <br>
-
-            <!-- Password -->
-            <input type="text" class="form-control" placeholder="Permanent Address">
-            <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
-                Fill your permanent address
-            </small>
-            <br>
-            <input type="text" class="form-control" placeholder="enter zip code">
-            <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
-                enter exact zip code
-            </small>
-            <!-- Newsletter -->
-            <br>
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
-                <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our
-                    newsletter</label>
-            </div>
-            <br>
-            <!-- Sign up button -->
-            <a href="home.html" class="btn btn-primary btn-sm up" role="button" onclick="myFunction()">proceed</a>
-            <hr>
-            <script>
-                function myFunction() {
-                    alert("you added an item in cart");
-                }
-            </script>
-
-        </form>
-        <div class="row">
-            <small>your order is eligible for free delievery</small>
-            <hr>
-            <small>this order contains gift</small>
-            <hr>
-            <img class="img-responsive" src="images/logo1.png" style="display: inline-block;">
+        <div class="form-row mb-4">
+          <div class="col">
+            <input
+              type="text"
+              id="defaultRegisterFormFirstName"
+              class="form-control"
+              placeholder="First name"
+            />
+          </div>
+          <br />
+          <div class="col">
+            <input
+              type="text"
+              id="defaultRegisterFormLastName"
+              class="form-control"
+              placeholder="Last name"
+            />
+          </div>
+          <br />
         </div>
-        <div class="row">
-            <footer class="style_footer">
-                <div class="container text-center">
-                    <small>Copyright &copy; Nikita Bansal</small>
-                    <small>Contact us : 0120-88797987</small>
-                    <small>delhi, panchsheel</small>
-                </div>
-            </footer>
+
+        <!-- E-mail -->
+        <input
+          type="email"
+          id="defaultRegisterFormEmail"
+          class="form-control mb-4"
+          placeholder="E-mail"
+        />
+        <br />
+
+        <!-- Password -->
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Permanent Address"
+        />
+        <small
+          id="defaultRegisterFormPasswordHelpBlock"
+          class="form-text text-muted mb-4"
+        >
+          Fill your permanent address
+        </small>
+        <br />
+        <input type="text" class="form-control" placeholder="enter zip code" />
+        <small
+          id="defaultRegisterFormPasswordHelpBlock"
+          class="form-text text-muted mb-4"
+        >
+          enter exact zip code
+        </small>
+        <!-- Newsletter -->
+        <br />
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            id="defaultRegisterFormNewsletter"
+          />
+          <label
+            class="custom-control-label"
+            for="defaultRegisterFormNewsletter"
+            >Subscribe to our newsletter</label
+          >
         </div>
+        <br />
+        <!-- Sign up button -->
+        <a
+          href="home.html"
+          class="btn btn-primary btn-sm up"
+          role="button"
+          onclick="myFunction()"
+          >proceed</a
+        >
+        <hr />
+        <script>
+          function myFunction() {
+            alert("you added an item in cart");
+          }
+        </script>
+      </form>
+      <div class="row">
+        <small>your order is eligible for free delievery</small>
+        <hr />
+        <small>this order contains gift</small>
+        <hr />
+        <img
+          class="img-responsive"
+          src="images/logo1.png"
+          style="display: inline-block;"
+        />
+      </div>
+      <div class="row">
+        <footer class="style_footer">
+          <div class="container text-center">
+            <small>Copyright &copy; Nikita Bansal</small>
+            <small>Contact us : 0120-88797987</small>
+            <small>delhi, panchsheel</small>
+          </div>
+        </footer>
+      </div>
     </div>
-</body>
+  </body>
 </html>
