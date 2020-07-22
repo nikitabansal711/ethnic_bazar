@@ -199,3 +199,8 @@ body {
     text-align: center;
     margin-top: 5px;
   }
+
+  .style_marquee {
+    color: #F5F5F5	;
+    text-shadow: 2px 2px 4px #000000;
+  }
