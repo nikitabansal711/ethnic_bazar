@@ -9,7 +9,7 @@ body {
 }
 
 .up {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 @media screen and (min-width: 782px) {
@@ -50,9 +50,7 @@ body {
     margin-right: 5px;
   }
 
-  .up {
-    margin-bottom: 5px;
-  }
+  
 
   .btm {
     margin-top: 10px;
@@ -111,9 +109,7 @@ body {
     margin-right: 5px;
   }
 
-  .up {
-    margin-bottom: 5px;
-  }
+  
 
   .btm {
     margin-top: 10px;
@@ -147,6 +143,22 @@ body {
       font-weight: bolder;
       font-family: 'Lobster', cursive;
     }
+    .style_footer{
+      width: 100%; 
+      height: fit-content ;
+      max-width: top 10px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #BDB76B;
+      color: black;
+      text-align: center;
+      margin-top: 5px;
+      font-size: xx-small;
+    }
+    h4{
+      font-size: small;
+    }
   }
 
   .thumbnail {
@@ -176,7 +188,7 @@ body {
   }
   .style_footer{
     width: 100%; 
-    height: 60px ;
+    height: fit-content ;
     max-width: top 10px;
     left: 0;
     bottom: 0;
